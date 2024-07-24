@@ -1,6 +1,6 @@
 package DS_Java_Training;
 
-public class ArrayDemo {
+public class ForeachLoopUsedInArray {
     public static void main(String[] args) {
 
         String[] name = new String[5];
@@ -8,13 +8,11 @@ public class ArrayDemo {
 
         name[2] = "Kuch bhi";
 
-        for (int i = 0; i < name.length; i++) {
-            System.out.println(name[i]);
+        for (String i : name) {
+            System.out.println(i);
         }
 
 
 
     }
-
-
 }
